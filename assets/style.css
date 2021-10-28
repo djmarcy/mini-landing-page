@@ -1,0 +1,91 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #5cdb95;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+nav,
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#site-header {
+  background-color: #05386b;
+  height: 100px;
+  line-height: 100px;
+}
+
+.nav-bar {
+  font-size: 24px;
+  color: #5cdb95;
+  text-align: right;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+}
+
+.nav-bar ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.nav-bar a,
+.nav-bar a:visited {
+  color: #5cdb95;
+  text-decoration: none;
+}
+
+/* Main Site Content */
+#content {
+  width: 75%;
+  margin: 0 auto 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #05386b;
+}
+
+.outer-container {
+  border: solid 15px #05386b;
+  color: #edf5e1;
+  height: 585px;
+  width: 585px;
+  margin: 15px auto;
+  background-color: #8ee4af;
+}
+
+.mid-container {
+  border: solid 15px #05386b;
+  height: 385px;
+  width: 385px;
+  margin: 85px auto;
+  background-color: #5cdb95;
+}
+
+.inner-container {
+  border: solid 15px #05386b;
+  height: 185px;
+  width: 185px;
+  margin: 85px auto;
+  background-color: #379683;
+}
+
+.graphic-card h2 {
+  font-size: 32px;
+  color: #05386b;
+  margin-top: 2em;
+  text-align: center;
+}
+
+/* Sidebar */
+#sidebar {
+  background-color: #05386b;
+}
